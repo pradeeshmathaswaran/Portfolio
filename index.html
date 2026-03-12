@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pradeesh portfolio</title>
+    <link rel="stylesheet" href="style.CSS">
+    <script src="https://kit.fontawesome.com/b844eeec37.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Pradeesh__2_-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                    <p>👋 Hello World</p>
+                    <h1>I’m <span> Pradeesh</span>. I'm a MERN Stack Developer. <br></h1>
+            </div>
+        </div>
+    </div>
+<!---------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                <img src="images/ABOUT.png">
+               </div> 
+               <div class="about-col-2">
+                <h1 class="sub-title">About</h1>
+                <p>I’m Pradeesh, a MERN Stack Developer. I enjoy shipping polished user experiences, designing clean APIs, and tuning performance. I work across the stack with 
+                    React, Node.js, JavaScript, databases, and DevOps tooling to deliver production‑ready features quickly..</p>
+
+                <div class="tab-title">
+                    <p class="tab-link active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-link" onclick="opentab('Education')">Education</p>
+                </div>  
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>FRONTEND</span><br>HTML, CSS, JavaScript, React.js, Bootstrap</li>
+                        <li><span>BACKEND</span><br>Node.js, Express.js, Rest APIs, API Integration</li>
+                        <li><span>DATABASE</span><br>MongoDB, MySQL, PostgreSQL</li>
+                        <li><span>TOOLS</span><br>Git, GitHub, Docker, Vercel, Render</li>
+                    </ul>
+                </div>
+                
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2025(AUG-NOV)</span><br>MERN Stack Developer</li>
+                        <li><span>(2022-2025)</span><br> Bachelor of Computer Application(BCA)<br>Karpagam Academy of Higher Education Coimbatore</li>
+                    </ul>
+                </div>
+                
+               </div> 
+            </div>
+        </div>      
+    </div>
+
+<!------------services---------------> 
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="server-list">
+            <div>
+                <i class="fa-brands fa-react"></i>
+                <h2>Full Stack Web Development</h2>
+                <p>I build scalable and responsive web applications using React, Node.js, Express,
+                     and MongoDB with clean architecture and production-ready code.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>REST API & Backend Development</h2>
+                <p>Design secure REST APIs, authentication systems, 
+                    and optimized databases to power fast and reliable backend services.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database & Deployment</h2>
+                <p>Database design, Docker setup,
+                     and cloud deployment to ensure smooth performance and easy scalability.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------my work ------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                <img src="images/crud.jpg">
+                <div class="layer">
+                    <h3>Crud project</h3>
+                    <p>Developed a CRUD web application to manage user records efficiently</p>
+                    <a href="https://crud-project-flax.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                <img src="images/api management.png">
+                <div class="layer">
+                    <h3>API project</h3>
+                    <p>Built and integrated REST APIs to fetch and display real-time data between the frontend and backend</p>
+                    <a href="https://api-server-dusky-gamma.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                <img src="images/weather images.png">
+                <div class="layer">
+                    <h3>Weather project</h3>
+                    <p>Built a Weather App using React and API integration to show real-time temperature, humidity, and weather information</p>
+                    <a href="https://weatherapp-en1ba3qu0-pradeeshmathaswarans-projects.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!------------------Contact------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> pradeeshmathaswaran@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 6369863784</p>
+                <div class="social-icon">
+                    <a href="https://www.linkedin.com/in/pradeesh04/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1nutR01IKKulD9bFUykLreOGSPxi8Fc_I/view?usp=sharing" download class="btn btn2" >Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="Submit to Google Sheets">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>© 2026 Pradeesh. All rights reserved.</p>
+</div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-link");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+            
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+    <script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbyiirc3ZkejtGN29caYufH7lx-hb9QSO0Q-B3ZW8NPMvS5G5A1w6O3SJ6coz3JBYbrtUg/exec'
+	const form = document.forms['Submit to Google Sheets']
+    const msg = document.getElementById("msg")
+
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+			.then(response => response.json())
+			.then(response => {
+                msg.innerHTML="Message sent successfully";
+                setTimeout(function(){
+                    msg.innerHTML="";
+                },5000);
+                form.reset();
+            })
+			.catch(error => console.error('Error!', error.message))
+	})
+</script>
+</body>
+</html>
